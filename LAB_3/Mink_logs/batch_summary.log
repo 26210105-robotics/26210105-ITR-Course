@@ -1,0 +1,11 @@
+====================================================
+ BATCH SUMMARY   0/25 runs completed   (1 flagged)
+====================================================
+ ik_total_ms    mean  1166.770 ms  min  1166.770   max  1166.770
+ sim_time_s     no data
+ wall_time_s    no data
+ Batch wall time 2.6 s
+ Problem runs:
+   index   0: viewer_closed [not_lifted;not_in_tray]
+ Results: batch_results.csv   Logs: batch_logs/
+====================================================

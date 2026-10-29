@@ -1,0 +1,54 @@
+Cube at [0.4   0.    0.195], yaw 26.3 deg (grasp yaw 26.3 deg)
+Tray place target: [0.35 0.32 0.21]
+
+Solving DLS-IK for Pre-Pick Hover...
+   pos err = 0.082 mm
+   solve time = 0.94 ms
+Solving DLS-IK for Pick...
+   pos err = 0.007 mm
+   solve time = 1.32 ms
+Solving DLS-IK for Pre-Place Hover...
+   pos err = 0.093 mm
+   solve time = 1.46 ms
+Solving DLS-IK for Place...
+   pos err = 0.012 mm
+   solve time = 1.49 ms
+
+Total path solving time: 5.24 ms
+
+[1/9] Approach Pre-Pick
+/home/pammu/.local/lib/python3.10/site-packages/glfw/__init__.py:917: GLFWError: (65548) b'Wayland: The platform does not provide the window position'
+  warnings.warn(message, GLFWError)
+[2/9] Descend to Pick
+[3/9] Grasp
+[4/9] Lift
+[5/9] Transport
+[6/9] Descend to Place
+[7/9] Release
+[8/9] Retract
+[9/9] Return Home
+Sequence complete. Holding home.
+
+====================================================
+ RESULTS
+====================================================
+ 1) Path solving time (DLS-IK, offline)
+      Pre-Pick Hover            0.94 ms
+      Pick                      1.32 ms
+      Pre-Place Hover           1.46 ms
+      Place                     1.49 ms
+      Total                     5.24 ms
+ 2) Overall simulation time (sequence complete)
+      Simulated time        12.500 s
+      Wall-clock time       21.821 s
+      Per step (simulated):
+        Approach Pre-Pick    0.970 s
+        Descend to Pick      1.692 s
+        Grasp                0.462 s
+        Lift                 1.692 s
+        Transport            2.462 s
+        Descend to Place     1.564 s
+        Release              0.604 s
+        Retract              1.564 s
+        Return Home          1.490 s
+====================================================

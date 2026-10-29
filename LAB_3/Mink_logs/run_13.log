@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/pammu/Documents/Mtech/ME639/LAB_3/Fr_DLSIK.py", line 148, in <module>
+    model = mujoco.MjModel.from_xml_path(MODEL_PATH)
+ValueError: ParseXML: Error opening file 'Pos5.xml'

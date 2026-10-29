@@ -1,0 +1,23 @@
+Cube at [ 0.4   -0.1    0.195], yaw -30.0 deg (grasp yaw -30.0 deg)
+Tray place target: [0.35 0.16 0.21]
+
+Solving DLS-IK for Pre-Pick Hover...
+   pos err = 0.089 mm
+   solve time = 0.99 ms
+Solving DLS-IK for Pick...
+   pos err = 0.005 mm
+   solve time = 1.10 ms
+Solving DLS-IK for Pre-Place Hover...
+   pos err = 0.014 mm
+   solve time = 1.23 ms
+Solving DLS-IK for Place...
+   pos err = 0.014 mm
+   solve time = 1.09 ms
+
+Total path solving time: 4.47 ms
+
+[1/9] Approach Pre-Pick
+/home/pammu/.local/lib/python3.10/site-packages/glfw/__init__.py:917: GLFWError: (65548) b'Wayland: The platform does not provide the window position'
+  warnings.warn(message, GLFWError)
+[2/9] Descend to Pick
+[3/9] Grasp

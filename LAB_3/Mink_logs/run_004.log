@@ -1,0 +1,60 @@
+=== Run 5/25  (index 4) ===
+   cube  pos [0.4, 0.2, 0.195]  quat [0.9952, 0.0, 0.0, 0.098]
+   frame pos [0.35, -0.16, 0.175]
+Cube at [0.4   0.2   0.195], yaw 11.2 deg (grasp yaw 11.2 deg)
+Tray place target: [ 0.35 -0.16  0.21]
+
+Solving Mink IK for Pre-Pick Hover...
+   pos err = 0.223 mm
+   solve time = 466.95 ms
+Solving Mink IK for Pick...
+   pos err = 0.474 mm
+   solve time = 448.64 ms
+Solving Mink IK for Pre-Place Hover...
+   pos err = 0.159 mm
+   solve time = 459.04 ms
+Solving Mink IK for Place...
+   pos err = 0.486 mm
+   solve time = 465.36 ms
+
+Total path solving time: 1839.99 ms
+
+[1/9] Approach Pre-Pick
+[2/9] Descend to Pick
+[3/9] Grasp
+[4/9] Lift
+[5/9] Transport
+[6/9] Descend to Place
+[7/9] Release
+[8/9] Retract
+[9/9] Return Home
+Sequence complete. Holding home.
+
+====================================================
+ RESULTS
+====================================================
+ 1) Path solving time (Mink IK, offline)
+      Pre-Pick Hover          466.95 ms
+      Pick                    448.64 ms
+      Pre-Place Hover         459.04 ms
+      Place                   465.36 ms
+      Total                  1839.99 ms
+ 2) Overall simulation time (sequence complete)
+      Simulated time        10.552 s
+      Wall-clock time       21.573 s
+      Per step (simulated):
+        Approach Pre-Pick    0.966 s
+        Descend to Pick      1.610 s
+        Grasp                0.462 s
+        Lift                 1.610 s
+        Transport            1.220 s
+        Descend to Place     1.700 s
+        Release              0.604 s
+        Retract              1.700 s
+        Return Home          0.682 s
+ 3) Outcome
+      Cube lift during Lift  0.246 m
+      Final offset in tray   x +6.1 mm, y -0.0 mm -> in tray
+====================================================
+   -> complete
+

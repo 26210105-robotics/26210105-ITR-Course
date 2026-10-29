@@ -1,0 +1,7 @@
+=== Run 13/25  (index 12) ===
+   cube  pos [0.525, 0.0, 0.195]  quat [0.9359, 0.0, 0.0, -0.3523]
+   frame pos [0.5, 0.32, 0.175]
+Cube at [0.525 0.    0.195], yaw -41.3 deg (grasp yaw -41.3 deg)
+Tray place target: [0.5  0.32 0.21]
+
+Solving Mink IK for Pre-Pick Hover...
